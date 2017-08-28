@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView viewById = (TextView) findViewById(R.id.show);
-        viewById.setText(UIUtils.getCommenterString("你是sb吗?",R.color.colorAccent,"//回复不怕丶:",R.color.colorPrimaryDark,20,25,"我是你爹",R.color.colorPrimary,30));
+        viewById.setText(UIUtils.getCommenterString("我就测试一下下.",R.color.colorAccent,"//回复不怕丶:",R.color.colorPrimaryDark,20,25,"你敢测试一下吗?",R.color.colorPrimary,30));
     }
 
 }
